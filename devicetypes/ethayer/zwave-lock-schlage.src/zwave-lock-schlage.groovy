@@ -138,7 +138,7 @@ metadata {
           displayDuringSetup: false,  options: ["Extreme", "High", "Medium", "Moderate", "Low"]
 
 		input name: "autoLock", type: "bool", title: "Auto Lock", description: "Enable Auto Lock?", required: false, displayDuringSetup: false
-		input name: "vacationMode", type: "bool", title: "Vataction Mode", description: "Enable Vacation Mode?", required: false, displayDuringSetup: false
+		input name: "vacationMode", type: "bool", title: "Vacation Mode", description: "Enable Vacation Mode?", required: false, displayDuringSetup: false
 		input name: "lockLeave", type: "bool", title: "Lock & Leave", description: "Enable Lock & Leave?", required: false, displayDuringSetup: false
 		input name: "localControl", type: "bool", title: "Local Control", description: "Enable Local Control?", required: false, displayDuringSetup: false
 		input name: "pinLength", type: "number", title: "Pin Length", description: "Changing will delete all codes", range: "4..8", required: false, displayDuringSetup: false
